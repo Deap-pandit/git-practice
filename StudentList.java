@@ -5,6 +5,10 @@ public class StudentList {
 	public static void main(String[] args) {
 
 //		Check arguments
+		if(args.length!=1){
+			System.out.println("invalid argumets!");
+			return;
+		}
 		if(args[0].equals("a")) {
 			System.out.println("Loading data ...");			
 			try {
